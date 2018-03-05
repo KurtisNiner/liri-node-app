@@ -20,7 +20,6 @@ switch (doThis) {
     default: console.log("command options: my-tweets, spotify-this-song, movie-this, do-what-it-says");
 };
 
-
 //twitter function that returns the latest tweets
 function tweets() {
     var params = { screen_name: 'kurtisCoder' };
