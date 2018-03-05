@@ -16,6 +16,7 @@ switch (doThis) {
     case "spotify-this-song": spotifySong(); break;
     case "movie-this": movieThis(); break;
     case "do-what-it-says": doWhatItSays(); break;
+
     default: console.log("command options: my-tweets, spotify-this-song, movie-this, do-what-it-says");
 };
 
@@ -112,7 +113,7 @@ function doWhatItSays() {
         }
         var doWhat = data.split(",");
         console.log(doWhat[0]);
-        var songInput = doWhat;
-        spotifySong();
+            spotifySong();
     });
 }
+
