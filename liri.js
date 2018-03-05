@@ -16,7 +16,6 @@ switch (doThis) {
     case "spotify-this-song": spotifySong(); break;
     case "movie-this": movieThis(); break;
     case "do-what-it-says": doWhatItSays(); break;
-
     default: console.log("command options: my-tweets, spotify-this-song, movie-this, do-what-it-says");
 };
 
