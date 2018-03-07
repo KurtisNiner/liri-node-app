@@ -112,8 +112,6 @@ function doWhatItSays() {
         var doWhat = data.split(",");
         console.log(doWhat[0]);
             spotifySong(doWhat[0]);
-            //i cant get this function to input the information from the random.txt file 
-    
         });
 }
 
