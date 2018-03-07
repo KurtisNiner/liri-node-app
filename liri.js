@@ -40,8 +40,8 @@ function tweets() {
 
 //spotify function that returns info on songs given to it
 
-function spotifySong() {
-    var songInput = process.argv[3];
+function spotifySong(doWhat) {
+    var songInput = doWhat || process.argv[3];
     if (!songInput) {
         songInput = "livin on a prayer";
         (console.log("\r\n" + "because you didn't put in a song, I give you the best song ever!" + "\n"))
@@ -113,6 +113,7 @@ function doWhatItSays() {
         console.log(doWhat[0]);
             spotifySong(doWhat[0]);
             //i cant get this function to input the information from the random.txt file 
-    });
+    
+        });
 }
 
